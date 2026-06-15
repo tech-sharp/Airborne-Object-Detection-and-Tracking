@@ -101,4 +101,4 @@ class FileHandler:
 if __name__ == "__main__":
     local_path = '/Users/skbly7/Terminal/aicrowd/repos/airborne-detection-starter-kit/data'
     s3_path_ = 's3://airborne-obj-detection-challenge-training/part1/'
-    file_handler = FileHandler(local_path, s3_path_)
+    file_handler = FileHandler(local_path, s3_path_)
