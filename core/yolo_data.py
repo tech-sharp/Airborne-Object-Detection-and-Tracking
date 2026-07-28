@@ -176,4 +176,4 @@ class Yolo_Data:
 
     @property
     def source_paths(self):
-        return ["./data/part1/Images", "./data/part2/Images", "./data/part3/Images"]
+        return ["./data/part1/Images", "./data/part2/Images", "./data/part3/Images"]
