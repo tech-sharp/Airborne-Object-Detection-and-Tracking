@@ -69,4 +69,4 @@ class AirborneObjectLocation:
 
     def __str__(self):
         return "AirborneObjectLocation(object=%s planned=%s, is_above_horizon=%s, bb=%s, range_distance_m=%s)" % \
-               (self.object.id, self.planned, self.is_above_horizon, self.bb, self.range_distance_m)
+               (self.object.id, self.planned, self.is_above_horizon, self.bb, self.range_distance_m)
