@@ -132,4 +132,4 @@ class Flight:
                 '-r', str(10*speed_x), '-pix_fmt', 'yuv420p', 'flight.mp4'
             ]))
         os.chdir(cur_dir)
-        return flight_folder + '/flight.mp4'
+        return flight_folder + '/flight.mp4'
