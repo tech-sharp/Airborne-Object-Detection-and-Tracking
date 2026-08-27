@@ -10,4 +10,4 @@ def get_prediction(img_bytes, model):
     img = Image.open(io.BytesIO(img_bytes))
     # inference
     results = model(img, size=640)
-    return results
+    return results
