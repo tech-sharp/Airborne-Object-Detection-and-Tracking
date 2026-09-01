@@ -87,4 +87,4 @@ class Frame:
 
         kpsoi = ia.KeypointsOnImage(obj_locations_centers, shape=img.shape)
         img_annotated = kpsoi.draw_on_image(img_annotated, size=3, color=(255, 255, 0))
-        return img_annotated
+        return img_annotated
