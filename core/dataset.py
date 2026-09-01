@@ -115,4 +115,4 @@ if __name__ == "__main__":
     local_path = '/Users/skbly7/Terminal/aicrowd/repos/airborne-detection-starter-kit/data'
     s3_path = 's3://airborne-obj-detection-challenge-training/part1/'
     dataset = Dataset(local_path, s3_path)
-    print(dataset.flights)
+    print(dataset.flights)
